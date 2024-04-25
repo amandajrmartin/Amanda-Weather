@@ -1,11 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive, sans-serif;
+    color: rgb(65, 64, 70);
+    background-image: url(./Images/Screenshot\ 2024-04-25\ 150125.png)
 }
 
 .container {
-    max-width: 600px;
+    /*  max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center; */
+
 }
 
 h1 {
@@ -18,12 +21,39 @@ input[type="text"] {
 
 button {
     padding: 8px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: rgb(238, 154, 59);
+    color: antiquewhite;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(110, 63, 30);
+}
+
+h2 {
+    display: block, flex;
+
+
+}
+
+.navbar {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-item {
+    width: 200px;
+    background-color: rgb(238, 154, 59);
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+#forecast {
+    display: flex;
 }
